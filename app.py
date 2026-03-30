@@ -26,7 +26,7 @@ st.markdown("""
   [data-testid="stSidebar"] hr { border-color: #1e293b !important; }
   .block-container { padding: 1.5rem 2rem; }
   .stTabs [data-baseweb="tab-list"] { background: white; border-bottom: 2px solid #e2e8f0; gap: 4px; }
-  .stTabs [data-baseweb="tab"] { background: transparent; color: #64748b; font-weight: 600; font-size: 13px; }
+  .stTabs [data-baseweb="tab"] { background: transparent; color: #64748b; font-weight: 600; font-size: 11px; }
   .stTabs [aria-selected="true"] { background: #f1f5f9 !important; color: #0f172a !important; border-bottom: 2px solid #3b82f6 !important; }
   .stButton > button { background: #3b82f6 !important; color: white !important; border: none !important; font-weight: 700 !important; border-radius: 6px !important; }
   .stButton > button:hover { background: #2563eb !important; }
@@ -153,7 +153,7 @@ with st.sidebar:
 #  TABS
 # ─────────────────────────────────────────
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-    "📊 Dashboard", "💲 CPQ Configurator", "🧪 UAT Validator", "📋 Quote Manager", "🔍 Audit Log", "🗂️ Data Preview"
+    "📊 Dashboard", "💲 CPQ", "🧪 UAT", "📋 Quotes", "🔍 Audit", "🗂️ Data"
 ])
 
 # ═══════════════════════════════════════════
