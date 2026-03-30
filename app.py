@@ -24,7 +24,8 @@ st.markdown("""
   [data-testid="stSidebar"] { background: #0f172a; }
   [data-testid="stSidebar"] * { color: #e2e8f0 !important; }
   [data-testid="stSidebar"] hr { border-color: #1e293b !important; }
-  .block-container { padding: 1.5rem 2rem; }
+  .block-container { padding: 3.5rem 2rem 1.5rem 2rem; }
+  [data-testid="stTabs"] { margin-top: 0.5rem; }
   .stTabs [data-baseweb="tab-list"] { background: white; border-bottom: 2px solid #e2e8f0; gap: 4px; }
   .stTabs [data-baseweb="tab"] { background: transparent; color: #64748b; font-weight: 600; font-size: 11px; }
   .stTabs [aria-selected="true"] { background: #f1f5f9 !important; color: #0f172a !important; border-bottom: 2px solid #3b82f6 !important; }
@@ -902,3 +903,4 @@ with tab6:
         csv_al2 = al_df.to_csv(index=False)
         st.download_button("⬇ Export Audit Log CSV", data=csv_al2,
                            file_name="PriceOps_AuditLog_Demo.csv", mime="text/csv")
+        
